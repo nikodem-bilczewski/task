@@ -14,3 +14,6 @@ export function isSixtyOrOlder(date: Date | null) {
 
   return birthDate < sixtyYearsAgo
 }
+export const showAlert = (message: string) => {
+  window.alert(message)
+}
